@@ -18,7 +18,7 @@ class Customer {
 
     public String statement() {
         double totalAmount = 0;
-        int frequentRenterPoints = 0;
+        var frequentRenterPoints = 0;
         Enumeration<Rental> enumRentals = Collections.enumeration(rentals);
         String result = "Rental Record for " + this.getName() + "\n";
         result += "\t" + "Title" + "\t" + "\t" + "Days" + "\t" + "Amount" + "\n";
