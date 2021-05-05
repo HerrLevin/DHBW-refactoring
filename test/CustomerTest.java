@@ -17,8 +17,9 @@ class CustomerTest {
     void addRental() {
         Rental rental = new Rental(new Movie("Test movie", 1), 3);
         customer.addRental(rental);
-        // Assertions.assertEquals(1,customer1.rentals.size());
-        //Can't be tested before touching the code
+        System.out.println(customer.statement());
+        Assertions.assertTrue(customer.statement().contains("for John"));
+        Assertions.assertTrue(customer.statement().contains("Test movie\t\t3\t9.0"));
     }
 
     @Test
