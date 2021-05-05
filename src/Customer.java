@@ -1,5 +1,3 @@
-
-import java.lang.*;
 import java.util.*;
 
 class Customer {
@@ -10,19 +8,13 @@ class Customer {
         name = newname;
     }
 
-    ;
-
     public void addRental(Rental arg) {
         rentals.add(arg);
     }
 
-    ;
-
     public String getName() {
         return name;
     }
-
-    ;
 
     public String statement() {
         double totalAmount = 0;
