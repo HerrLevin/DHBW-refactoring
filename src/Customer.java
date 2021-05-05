@@ -4,7 +4,7 @@ import java.util.*;
 
 class Customer {
     private String name;
-    private ArrayList<rentals> rentals = new ArrayList();
+    private ArrayList<rentals> rentals = new ArrayList<rentals>();
 
     public Customer(String newname) {
         name = newname;
