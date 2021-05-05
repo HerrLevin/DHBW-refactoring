@@ -25,7 +25,7 @@ class Customer {
 
         while (enumRentals.hasMoreElements()) {
             double thisAmount = 0;
-            Rental each = (Rental) enumRentals.nextElement();
+            var each = enumRentals.nextElement();
             //determine amounts for each line
             thisAmount = amountFor(each);
             // add frequent renter points
