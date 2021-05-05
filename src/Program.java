@@ -11,7 +11,7 @@ public class Program {
      */
 
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         String result;
         logger.log("Welcome to the Movie Store");
         Movie m1 = new Movie("movie1", 1);
